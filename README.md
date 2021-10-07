@@ -1,11 +1,12 @@
 <!-- Add banner here -->
-![undraw_predictive_analytics_kf9n](https://user-images.githubusercontent.com/83410546/136420359-37ab13a5-a43b-43fe-8f5c-1b99d7d180c1.png)
+
+![undraw_predictive_analytics_kf9n](https://user-images.githubusercontent.com/83410546/136421085-2bb85226-f3f6-4ab5-84a8-965edec161b0.png)
 
 # Sales-Prediction-Analysis
 
 <!-- Add buttons here -->
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ridhed/Sales-Prediction-Analysis?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/Sales-Prediction-Analysis)
+![GitHub last commit](https://img.shields.io/github/last-commit/ridhed/Sales-Prediction-Analysis)
 ![GitHub issues](https://img.shields.io/github/issues-raw/ridhed/Sales-Prediction-Analysis)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/ridhed/Sales-Prediction-Analysis)
 ![GitHub](https://img.shields.io/github/license/ridhed/Sales-Prediction-Analysis)
@@ -50,7 +51,8 @@ Functions Used For Analysis
 * value_counts - In a column, it shows all the unique values with their count. It can be applied on a single column only.
 * info() - Provides basic information about the dataframe.
 * isna() - function is used to detect missing values. It return a boolean same-sized object indicating if the values are NA
-* groupby()-
+* groupby() - dataframe.groupby() function is used to split the data into groups based on some criteria. pandas objects can be split on any of their axes. 
+              The abstract definition of grouping is to provide a mapping of labels to group names.  
 
 Questions Answered/Analysed From The Dataset
 
