@@ -26,13 +26,13 @@ The Notebook described in the section will query for the business growth from sa
 * Data Collection – Conducting opinion Surveys, scraping the internet, etc.
 * Data Handling – Viewing data as a table, performing cleaning activities like checking for spellings, removal of blanks and wrong cases, removal of invalid values from data, etc.
 * Data Visualization – plotting appealing graphs, so anyone who looks at the data can know what story the data tells us.
-* 1) Pandas – short for “Panel Data” (A panel is a 3D container of data) – is a library in python which contains in-built functions to clean, transform, manipulate, visualize        and analyze data.
+ 1) Pandas – short for “Panel Data” (A panel is a 3D container of data) – is a library in python which contains in-built functions to clean, transform, manipulate, visualize                  and analyze data.
+ 
+ 2) NumPy – Numerical python – forms the basics of what pandas is all about. While NumPy deals with “Arrays” and “Matrices”, Pandas deals with “Series” & “Data Frames”.
 
-* 2) NumPy – Numerical python – forms the basics of what pandas is all about. While NumPy deals with “Arrays” and “Matrices”, Pandas deals with “Series” & “Data Frames”.
+ 3) Matplotlib- It is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding                     plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK.
 
-* 3) Matplotlib- It is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding          plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK.
-
-* 4) Seaborn- Its plotting functions operate on dataframes and arrays containing whole datasets and internally perform the necessary semantic mapping and statistical aggregation to produce informative plots. 
+ 4) Seaborn- Its plotting functions operate on dataframes and arrays containing whole datasets and internally perform the necessary semantic mapping and statistical aggregation              to produce informative plots. 
  
 [(Back to top)](#table-of-contents)
 
