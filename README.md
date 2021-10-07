@@ -1,14 +1,14 @@
 <!-- Add banner here -->
-![undraw_Weather_re_qsmd](https://user-images.githubusercontent.com/83410546/135469595-7be2c567-4cd0-4f46-b787-bd8f0d18f650.png)
+![undraw_predictive_analytics_kf9n](https://user-images.githubusercontent.com/83410546/136420359-37ab13a5-a43b-43fe-8f5c-1b99d7d180c1.png)
 
 # Sales-Prediction-Analysis
 
 <!-- Add buttons here -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ridhed/Weather-Dataset-Analysis?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/ridhed/Weather-Dataset-Analysis)
-![GitHub issues](https://img.shields.io/github/issues-raw/ridhed/Weather-Dataset-Analysis)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/ridhed/Weather-Dataset-Analysis)
-![GitHub](https://img.shields.io/github/license/ridhed/Weather-Dataset-Analysis)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ridhed/Sales-Prediction-Analysis?include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sales-Prediction-Analysis)
+![GitHub issues](https://img.shields.io/github/issues-raw/ridhed/Sales-Prediction-Analysis)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ridhed/Sales-Prediction-Analysis)
+![GitHub](https://img.shields.io/github/license/ridhed/Sales-Prediction-Analysis)
 
 <!-- Described the project in brief -->
 This is the Sales-Prediction-Analysis on SuperStore sales dataset given to us by mentor Balwant Gorad of Tech saksham Program.
@@ -22,32 +22,17 @@ The Notebook described in the section will query for the business growth from sa
 - [How I Did The Superstore Sales Dataset Analysis](#how-i-did-the-Superstore-sales-dataset-analysis)
 
 # The basic Libraries used in Sales Analysis Project 
-1. Business Understanding
- * Data mining goals are defined.
- * The fundamental requirement is to understand client and business objectives.
- * Current data mining scenario factors in resources, constraints and
-assumptions should also be taken into the consideration.
-2. Data Understanding
- * In this stage, a sanity check is conducted to understand whether it is appropriate for data mining goals.
- * The data is collected from various sources within the organization.
- * It is a highly complex process since data and process from various sources are unlikely to match easily.
-3. Data Preparation
- * The data is production ready in this stage.
- * The data from diverse sources should be nominated, cleaned, transformed,formatted, anonymized, and created.
- * Data cleaning is a process to "clean" the data by smoothing noisy data and
-satisfying in missing values.
-4. Modelling
- * In this stage, mathematical models are used to determine the data patterns.
- * Suitable modelling techniques need to be chosen for the prepared data set.
- * After that, create a scenario to validate the model. Then run the model on the prepared data set.
-5. Evaluation
- * In this stage, patterns recognized are examined against business objectives.
- * A go or no-go decision should be taken to move the model in the deployment phase.
-6. Deployment
- * In this stage, ship your data mining.
- * Discoveries (model/reports) to every business operation.
- * A thorough deployment plan, for shipping, maintenance, and monitoring of data mining discoveries is created.
+* Data Collection – Conducting opinion Surveys, scraping the internet, etc.
+* Data Handling – Viewing data as a table, performing cleaning activities like checking for spellings, removal of blanks and wrong cases, removal of invalid values from data, etc.
+* Data Visualization – plotting appealing graphs, so anyone who looks at the data can know what story the data tells us.
+* 1) Pandas – short for “Panel Data” (A panel is a 3D container of data) – is a library in python which contains in-built functions to clean, transform, manipulate, visualize        and analyze data.
 
+* 2) NumPy – Numerical python – forms the basics of what pandas is all about. While NumPy deals with “Arrays” and “Matrices”, Pandas deals with “Series” & “Data Frames”.
+
+* 3) Matplotlib- It is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding          plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK.
+
+* 4) Seaborn- Its plotting functions operate on dataframes and arrays containing whole datasets and internally perform the necessary semantic mapping and statistical aggregation to produce informative plots. 
+ 
 [(Back to top)](#table-of-contents)
 
 # How I Did The Superstore Sales Dataset Analysis
@@ -65,19 +50,20 @@ Functions Used For Analysis
 * value_counts - In a column, it shows all the unique values with their count. It can be applied on a single column only.
 * info() - Provides basic information about the dataframe.
 * isna() - function is used to detect missing values. It return a boolean same-sized object indicating if the values are NA
+* groupby()-
 
 Questions Answered/Analysed From The Dataset
 
-* What is overall sales trend?
-* Which are top 10 products by sales?
-* Which are the most selling products (quantity)?
-* Which is the most preferred shipping method ?
-* Which are the most profitable categories and sub categories ?
-* Which are the least profitable categories and sub categories ?
-* Which are bottom 10 prodcts by sales ?
-* Which are the least selling products (qauntity)?
-* In which year did we got more orders ?
-* Find from which we got more order from ?
+* Q.1) What is overall sales trend?
+* Q.2)Which are top 10 products by sales?
+* Q.3)Which are the most selling products (quantity)?
+* Q.4)Which is the most preferred shipping method ?
+* Q.5)Which are the most profitable categories and sub categories ?
+* Q.6)Which are the least profitable categories and sub categories ?
+* Q.7)Which are bottom 10 prodcts by sales ?
+* Q.8)Which are the least selling products (qauntity)?
+* Q.9)In which year did we got more orders ?
+* Q.10)Find from which we got more order from ?
        
 [(Back to top)](#table-of-contents)
 
